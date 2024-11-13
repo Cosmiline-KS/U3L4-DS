@@ -1,0 +1,7 @@
+the base cases are if the list is 1 in length or the target is equal to the index that is being checked in the middle. 
+
+each time the function is called the length of the list gets smaller, getting nearer to the base case, and the pointer is either changed or stays the same until the base case is reached. 
+
+the initial value of the pointer is supposed to be numbs[0], it wont change when going left but when it goes right the middle index number that we are checking is added on the pointer. 
+
+the maximum amount of steps it would take would be 4, which is a lot more effective the the 9 steps than it would be for a simple iteration search
